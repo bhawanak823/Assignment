@@ -15,7 +15,6 @@ def convert_to_kg_g(talents, pounds, lots):
 
     return kilograms, grams
 
-
 # Get input from the user
 print("Enter the mass in medieval units:")
 talents = int(input("Talents: "))
