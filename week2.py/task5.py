@@ -1,13 +1,13 @@
-def convert_to_kg_g(talents, pounds, lots):
+def convert_to_kg_g(talent, pound, lot):
     # Conversion rates
-    LOT_TO_GRAMS = 13.3
-    POUNDS_TO_LOTS = 32
-    TALENT_TO_POUNDS = 20
+    lot_to_grams = 13.3
+    pound_to_lots = 32
+    talent_to_pound = 20
 
     # Convert the total mass to grams
-    total_grams = (talents * TALENT_TO_POUNDS * POUNDS_TO_LOTS * LOT_TO_GRAMS) + \
-                  (pounds * POUNDS_TO_LOTS * LOT_TO_GRAMS) + \
-                  (lots * LOT_TO_GRAMS)
+    total_grams = (talents * talent_to_pound * pound_to_lots * lot_to_grams) + \
+                  (pounds * pound_to_lots * lot_to_grams) + \
+                  (lots * lot_to_grams)
 
     # Convert grams to kilograms and grams
     kilograms = int(total_grams // 1000)
