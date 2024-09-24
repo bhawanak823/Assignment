@@ -1,3 +1,4 @@
+#
 import random
 #Computer picks a random number between 1 and 10
 number = random.randint(1, 10)
