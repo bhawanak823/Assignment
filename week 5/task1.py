@@ -4,7 +4,7 @@ import random
 num_dice = int(input("How many dice do you want to roll? "))
 
 # Initialize sum to zero
-total_sum = 1
+total_sum = 0
 
 # using for loop
 for _ in range(num_dice):

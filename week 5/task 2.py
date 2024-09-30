@@ -5,7 +5,6 @@ num = []
 while True:
     user_input = input("Enter a number (or press Enter to finish): ")
 
-    #break the loop
     if user_input == "":
         break
 

@@ -1,6 +1,5 @@
 
 cities = []
-
 # Use a for loop
 for i in range(5):
     city = input(f"Enter the name of city {i + 1}: ")

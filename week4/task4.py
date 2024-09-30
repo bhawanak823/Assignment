@@ -5,14 +5,12 @@ number = random.randint(1, 10)
 
 while True:
         # Ask the user for their guess
-        guess = input("Enter your guess: ")
-
-        guess = int(guess)
+        guess = int(input("Enter your guess "))
 
         # Check if the guess is too low, too high, or correct
         if guess < number:
-            print("Too low! Try again.")
+            print("Too low hahaha Try again.")
         elif guess > number:
-            print("Too high! Try again.")
+            print("Too high Try again.")
         else:
             print("Correct! You guessed the number.")

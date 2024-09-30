@@ -2,4 +2,4 @@
 name = input("What is your name? ")
 
 #Greet the user
-print(f"Hello, {"name"} ! good to see you.")
+print(f"Hello,  " + name + "  ! good to see you.")
